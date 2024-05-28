@@ -7,7 +7,7 @@ export default function Carousel() {
         if (window.innerWidth < 844) {
             setResponsiveHead('10%')
         }
-    })
+    },[]);
     return (
         <>
             <div id='carousel' className="carousel-header" style={{ zIndex: '10' }}>
