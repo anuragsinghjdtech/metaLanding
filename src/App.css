@@ -1,0 +1,569 @@
+/*** Carousel Hero Header Start ***/
+.carousel-header .carousel-control-prev,
+.carousel-header .carousel-control-next {
+    background: transparent;
+}
+
+.carousel-header .carousel-control-prev .carousel-control-prev-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 25px 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 50px;
+    background-size: 60% 60%;
+}
+
+
+.carousel-header .carousel-control-next .carousel-control-next-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 25px 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 0;
+    background-size: 60% 60%;
+
+}
+
+.carousel-header .carousel .carousel-indicators li,
+.carousel-header .carousel .carousel-indicators li,
+.carousel-header .carousel .carousel-indicators li {
+    opacity: 0;
+}
+
+.carousel-header .carousel-inner {}
+
+.carousel-header .carousel-inner .carousel-item {
+    position: relative;
+    min-height: 100vh;
+    top: -20%;
+}
+
+.carousel-header .carousel-inner .carousel-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0, .1), rgba(32, 87, 109, .1));
+    background-size: cover;
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .home-head {
+    top: 10%;
+    font-size: 3rem;
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .home-head .text2 {
+    font-size: 1.15rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .ga-head {
+    position: relative;
+    top:-3rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .ga-head .text1{
+    font-size: 3rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .ga-head .text2{
+    font-size: 1.15rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .seo-head {
+    font-size: 3rem;
+    position: relative;
+    top:-5rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .sd-head {
+    position: relative;
+    top:-4.5rem
+    
+    
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .sd-text1 {
+    font-size: 3rem;
+    
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .sd-text2 {
+    font-size: 1.15rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .wd-head {
+    position: relative;
+    top:-2rem;
+    
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .wd-text1 {
+    font-size: 3rem;
+    
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .wd-text2 {
+    font-size: 1.15rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .gd-text1 {
+    font-size: 3rem;
+    position: relative;
+    top:-1rem
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .gd-btn {
+    position:relative;
+    font-size: 1rem;
+    font-weight: 500;
+    top:-.5rem
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .carousel-btn {
+    height: 61px;
+
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head {
+    position: relative;
+    top: -3.5rem;
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head .text1 {
+    font-size: 3rem;
+}
+
+.carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head .text2 {
+    font-size: 1.15rem;
+}
+.carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head .ad-btn{
+    position: relative;
+    top:-2rem;
+}
+/* // */
+
+
+@media (max-width: 768px) {
+
+    .carousel-header .carousel-inner .carousel-item img,
+    .carousel-header .carousel-inner .carousel-item .carousel-caption {
+        height: 600px;
+        margin-top: -100px;
+    }
+
+    .carousel-header {
+        height: 300px !important;
+    }
+
+    .carousel-header .carousel-control-prev .carousel-control-prev-icon,
+    .carousel-header .carousel-control-next .carousel-control-next-icon {
+        opacity: 0;
+    }
+
+    .search-bar {
+        margin-top: -100px;
+        transition: 0.5s;
+    }
+}
+
+.search-bar .body .btn {
+    top: 50%;
+    right: 46px;
+    transform: translateY(-50%)
+}
+
+@media(max-width:576px) {
+    .search-bar .body {
+        height: 60px;
+    }
+
+    .search-bar .body .btn-txt {
+        font-size: 12px;
+    }
+
+    .search-bar .body .btn {
+        right: 3px;
+        top: 53%
+    }
+
+    .carousel-header .carousel-inner .carousel-item {
+        position: relative;
+        height: 50vh;
+        top: -20%;
+    }
+
+    .carousel-header .carousel-inner .carousel-item img {
+        width: 576px;
+        height: 450px;
+        position: absolute;
+        left: -48%;
+        top:8rem
+    }
+
+    .carousel-header .carousel-inner .carousel-item .autodial-img {
+        height: 300px;
+        position: absolute;
+        top: 13%;
+        left: -47%;
+    }
+    .carousel-header .carousel-inner .carousel-item .contact-img {
+        height: 300px;
+        position: absolute;
+        top: 13%;
+        left: -47%;
+    }
+    .carousel-header .carousel-inner .carousel-item .policy-img{
+        height:300px;
+        height: 300px;
+        width:492px;
+        position: absolute;
+        top: 13%;
+        left:0%;
+    }
+
+    .carousel-header .carousel-inner .carousel-item .carousel-caption {
+        height: 450px;
+        margin-top: -150px;
+    }
+
+    .search-bar {
+        margin-top: -402px;
+        transition: 0.5s;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ga-head {
+        position: relative;
+        top:4rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ga-head .text1{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ga-head .text2{
+        font-size: .75rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ga-head .ga-btn{
+        position: relative;
+        top:2rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .seo-head {
+        font-size: 1.5rem;
+        position: relative;
+        top:3.5rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .home-head {
+        position:relative;
+
+        top:5rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .home-head .text1 {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .home-head .text2 {
+        font-size: .75rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .home-head .home-btn {
+        position: relative;
+        top:2rem
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .carousel-btn {
+        top: -30%;
+        height: 30px
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head{
+        position: relative;
+        top:3rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head .text1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head .text2 {
+        font-size: .75rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .ad-head .ad-btn{
+        position: relative;
+        top:1rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .gd-text1 {
+        font-size: 1.5rem;
+        position: relative;
+        top:4rem
+    }
+    
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .gd-btn {
+        position:relative;
+        font-size: 1rem;
+        font-weight: 500;
+        top:6rem
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .sd-head {
+        position: relative;
+        top:3rem;
+        
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .sd-text1 {
+        font-size: 1.5rem;
+        
+    }
+    
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .sd-text2 {
+        font-size: .75rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .sd-btn {
+        top:1rem;
+        position: relative;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .wd-head {
+        position: relative;
+        top:2rem;
+        
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .wd-text1 {
+        font-size: 1.5rem;
+        
+    }
+    
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .wd-text2 {
+        font-size: .75rem;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .wd-btn {
+        top:4rem;
+        position: relative;
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .contact-head{
+        position:relative;
+        top:0rem;
+        left:1%;
+        color:#00c3ff
+    }
+    .carousel-header .carousel-inner .carousel-item .carousel-caption .contact-head .contact-btn{
+        position:relative;
+        top:10rem;
+    }
+
+}
+
+
+
+
+/* Meta Ads Start */
+
+.meta{
+    margin-bottom: 3rem;
+}
+.meta .intro{
+    margin-top: 8rem;
+}
+.meta .intro .text{
+    padding-inline:3rem;
+}
+.meta .intro .text .head{
+    font-size: 3rem;
+    font-weight: bolder;
+    color:black;
+}
+.meta .intro .text .content{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color:black;
+}
+@media(max-width:576px) {
+    .meta .intro .text{
+        padding-inline:1rem;
+    }
+    .meta .intro .text .head{
+        font-size: 1.25rem;
+        font-weight: bolder;
+        color:black;
+    }
+    .meta .intro .text .content{
+        font-size: .75rem;
+        font-weight: 300;
+        color:black;
+    }
+    .meta .intro .image{
+     width:200px;
+    }
+}
+.meta .increase-revenue {
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+}
+.meta .increase-revenue .head{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:black
+}
+.meta .increase-revenue .content{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-inline: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color:black
+}
+.meta .plans .card-body .title{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color:#000;
+    padding:1rem;
+}
+.meta .plans .card-body .card-text .plan{
+    position: relative;
+    padding-inline-start: 1.5rem;
+    display: flex;
+    align-content: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    height:40px;
+    color:black
+}
+.meta .plans .card-body .card-text .plan .text-dark{
+    margin-inline-start: 1.5rem;
+}
+
+.meta .services .services-cards{
+    padding-inline:5rem;
+}
+.meta .services .services-cards .fb-img{
+    position:relative;
+    width:255px;
+    left:25%;
+}
+.meta .services .services-cards .insta-img{
+    position: relative;
+    margin-top: 4.2rem;
+    width:190px;
+    top:-30px;
+    left:30%;
+}
+
+.meta .who-we-are .img{
+    width: 570px;
+    height:402px
+}
+.meta .who-we-are .col-6{
+    padding-top: 5rem;
+}
+.meta .who-we-are .col-6 .head{
+    padding-top: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+.meta .who-we-are .col-6 .content{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+}
+.meta .end-meta .head1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color:#0fc3fa
+}
+.meta .end-meta .head2{
+    font-size: 8rem;
+    font-weight: bolder;
+    color:#000000
+}
+/* Meta Ads End */
+
+/*** Footer Start ***/
+.footer {
+    background: var(--bs-dark);
+}
+
+.footer .footer-item a {
+    line-height: 30px;
+    color: var(--bs-white);
+    transition: 0.5s;
+}
+
+.footer .footer-item1 a {
+    line-height: 30px;
+    color: var(--bs-white);
+    transition: 0.5s;
+}
+
+.footer .footer-item a:hover {
+    letter-spacing: 2px;
+    color: var(--bs-primary);
+}
+.phone-number{
+    position: relative;
+}
+.phone-number:hover{
+    left:1%
+}
+.flags{
+    width:20px
+}
+.privacy-policy{
+    padding: 3rem;
+}
+.privacy-policy .head{
+   font-size: 3rem; 
+   font-weight: bold;
+}
+.privacy-policy .head2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.privacy-policy .content{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.privacy-policy .table{
+    padding-inline: 10rem;
+}
+.privacy-policy .table-content{
+    padding: 2rem;
+    font-weight: 500;
+}
+@media(max-width:728px){
+    .privacy-policy{
+        font-size: .75rem;
+        padding: 3rem;
+    }
+    .privacy-policy .head{
+       font-size: 2rem; 
+       font-weight: bold;
+       
+    }
+    .privacy-policy .head2{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .privacy-policy .content{
+        font-size: .85rem;
+        font-weight: 400;
+    }
+    .privacy-policy .table{
+        padding-inline: .5rem;
+    }
+    .privacy-policy .table-content .head{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .privacy-policy .table-content{
+        padding: 0rem;
+        font-weight: 500;
+    }
+}
+/*** Footer End ***/
